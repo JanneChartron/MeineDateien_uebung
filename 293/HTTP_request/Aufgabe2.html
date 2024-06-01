@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular mit Web-Hook</title>
+</head>
+
+<body>
+
+    <h2>Formular mit Web-Hook</h2>
+
+    <!-- Form for GET Request -->
+    <form action="https://webhook.site/f56ca352-7385-4f11-870c-8a346c6b3f39" method="GET">
+        <label for="nachname">Nachname:</label><br>
+        <input type="text" id="nachname" name="nachname" required><br>
+        <label for="vorname">Vorname:</label><br>
+        <input type="text" id="vorname" name="vorname" required><br>
+        <label for="geburtstag">Geburtsdatum:</label><br>
+        <input type="date" id="geburtstag" name="geburtstag" required><br>
+
+        <p>Beruf:</p>
+        <input type="radio" id="applikationsentwickler" name="beruf" value="ApplikationsentwicklerIn">
+        <label for="applikationsentwickler">ApplikationsentwicklerIn</label><br>
+        <input type="radio" id="plattformentwickler" name="beruf" value="PlattformentwicklerIn">
+        <label for="plattformentwickler">PlattformentwicklerIn</label><br>
+        <input type="radio" id="digitalbusinessentwickler" name="beruf" value="EntwicklerIn Digital Business">
+        <label for="digitalbusinessentwickler">EntwicklerIn Digital Business</label><br>
+
+        <label for="hobbys">Hobbys:</label>
+        <select id="hobbys" name="hobbys">
+            <option value="wandern">Wandern</option>
+            <option value="schwimmen">Schwimmen</option>
+            <option value="fussball">Fussball spielen</option>
+        </select><br><br>
+
+        <input type="submit" value="Absenden (GET)">
+    </form>
+
+    <hr>
+
+    <!-- Form for POST Request -->
+    <form action="https://webhook.site/f56ca352-7385-4f11-870c-8a346c6b3f39" method="POST">
+        <label for="nachname_post">Nachname:</label><br>
+        <input type="text" id="nachname_post" name="nachname" required><br>
+        <label for="vorname_post">Vorname:</label><br>
+        <input type="text" id="vorname_post" name="vorname" required><br>
+        <label for="geburtstag_post">Geburtsdatum:</label><br>
+        <input type="date" id="geburtstag_post" name="geburtstag" required><br>
+
+        <p>Beruf:</p>
+        <input type="radio" id="applikationsentwickler_post" name="beruf" value="ApplikationsentwicklerIn">
+        <label for="applikationsentwickler_post">ApplikationsentwicklerIn</label><br>
+        <input type="radio" id="plattformentwickler_post" name="beruf" value="PlattformentwicklerIn">
+        <label for="plattformentwickler_post">PlattformentwicklerIn</label><br>
+        <input type="radio" id="digitalbusinessentwickler_post" name="beruf" value="EntwicklerIn Digital Business">
+        <label for="digitalbusinessentwickler_post">EntwicklerIn Digital Business</label><br>
+
+        <label for="hobbys_post">Hobbys:</label>
+        <select id="hobbys_post" name="hobbys">
+            <option value="wandern">Wandern</option>
+            <option value="schwimmen">Schwimmen</option>
+            <option value="fussball">Fussball spielen</option>
+        </select><br><br>
+
+        <input type="submit" value="Absenden (POST)">
+    </form>
+
+</body>
+
+</html>

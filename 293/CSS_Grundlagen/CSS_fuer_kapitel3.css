@@ -1,0 +1,12 @@
+body {
+    font-size: 16px; /* Basis-Schriftgröße für das body-Element */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em; /* Schriftgröße des h1-Elements ist das Doppelte der Basis-Schriftgröße */
+}
+
+p {
+    text-align: center; /* Zentriert den Text innerhalb des Absatzes */
+}

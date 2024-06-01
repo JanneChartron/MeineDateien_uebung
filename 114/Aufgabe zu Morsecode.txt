@@ -1,0 +1,13 @@
+Aufgabe zu Morsecode
+Erklären Sie, welches Problem der Morse Code hat.
+
+Ich denke das ein Problem ist das man es nicht so gut kommunizieren kann, da man nicht weiss wann abstände kommen oder so etwas in der Art ist.
+
+Codieren Sie den Namen chuck norris mit Hilfe der obigen Tabelle.
+00101 / 10001 / 10101 / 00101 / 1010000  /  0001 / 1011 / 11011 / 11011 / 1001 / 0011
+
+Analysieren Sie, ob die Huffmann Codierung das gleiche Problem wie der Morse-Code
+hat. 
+
+Nein ich denke nicht wenn es abstände hat. Wenn man einen zusammenhängenden code schickt dann denke ich schon das dies ein Problem werden könnte.
+

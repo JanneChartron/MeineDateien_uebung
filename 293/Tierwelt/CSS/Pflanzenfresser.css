@@ -1,0 +1,62 @@
+/* Allgemeine Formatierung */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #669933;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+section h2 {
+    color: #669933;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #333;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 20px; 
+}
+
+footer {
+    background-color: #669933;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

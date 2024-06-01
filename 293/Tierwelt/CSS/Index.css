@@ -1,0 +1,45 @@
+/* Allgemeine Formatierung */
+body {
+    font-family: 'Roboto', sans-serif; /* Verwende die Schriftart Roboto oder eine ähnliche Sans-Serif-Schriftart */
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #0084ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #0084ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
